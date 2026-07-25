@@ -1,0 +1,6 @@
+{
+  "name": "Audity",
+  "description": "Editor y procesador de audio multitrama en tiempo real con línea de tiempo dinámica, grabación de voz en vivo y exportación MP3/.ALI.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
