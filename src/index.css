@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #0A018A;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #1AA7C7;
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #005B9E;
+  }
+}
+
+body {
+  background-color: #1D006B;
+  color: #ffffff;
+  user-select: none;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  overflow: hidden;
+}
